@@ -6,6 +6,7 @@ url = f"https://api.github.com/repos/flutter/flutter/commits"
 params = {
     "method": "GET",
     "headers" : "application/vnd.github.v3+json",
+    "authorization" : "token 1f18f201a6b3fbbee95c5e3680789b6561c4f0d7",
     "per_page": "100"
 }
 since = ""
