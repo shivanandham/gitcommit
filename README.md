@@ -1,5 +1,5 @@
 # gitcommit
-Requirements: python installed in the system(if not https://www.python.org/downloads/release/python-387/)
+Requirements: python to be installed in the system(if not, install it in here: https://www.python.org/downloads/release/python-387/)
 To run:
 navigate to the folder where the file is, click on navigation bar and type cmd
 (or)
