@@ -25,6 +25,8 @@ if not end:
         params["since"] = since
 if start:
     if end:
+        since+=(start[6:10]+"-"+start[3:5]+"-"+start[0:2])
+        untill+=(end[6:10]+"-"+end[3:5]+"-"+end[0:2])
         params["since"] = since
         params["untill"] = untill
 
