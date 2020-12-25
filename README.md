@@ -5,7 +5,7 @@ navigate to the folder where the file is, click on navigation bar and type cmd
 (or)
 open cmd and navigate to the file's folder
 on cmd window, type
-```
+```python
 python gitcommit.py
 ```
 Then enter the start and end date
