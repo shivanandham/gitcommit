@@ -10,15 +10,15 @@ params = {
     "per_page": "100"
 }
 since = ""
-untill = ""
+until = ""
 
 start = input("Enter the start date: ")
 end = input("Enter the end date: ")
 
 if not start:
     if end:
-        untill+=(end[6:10]+"-"+end[3:5]+"-"+end[0:2])
-        params["untill"] = untill
+        until+=(end[6:10]+"-"+end[3:5]+"-"+end[0:2])
+        params["until"] = until
 if not end:
     if start:
         since+=(start[6:10]+"-"+start[3:5]+"-"+start[0:2])
@@ -28,7 +28,7 @@ if start:
         since+=(start[6:10]+"-"+start[3:5]+"-"+start[0:2])
         untill+=(end[6:10]+"-"+end[3:5]+"-"+end[0:2])
         params["since"] = since
-        params["untill"] = untill
+        params["until"] = until
 
 
 
